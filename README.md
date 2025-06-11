@@ -47,6 +47,8 @@ CREATE TABLE transacao (
   data DATE,
   FOREIGN KEY (id_usuario) REFERENCES usuario(id)
 );
+```
+---
 
 ⚙️ Como Executar o Projeto
 Clone o repositório:
